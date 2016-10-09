@@ -1,0 +1,18 @@
+<resources>
+
+
+    <string name="app_name">MyAndroidApp</string>
+    <string name="java">Java</string>
+    <string name="csharp">C#</string>
+    <string name="cplus">C++</string>
+    <string name="submit">Submit</string>
+    <string name="android_programming">Android Programming?</string>
+    <string name="html">html</string>
+    <string name="php">php</string>
+    <string name="javascript">javascript</string>
+    <string name="webProgramming">Which Language is used for Web Programming?</string>
+    <string name="dotnet">Dot Net</string>
+    <string name="scala">Scala</string>
+    <string name="java1">Java</string>
+    <string name="desktop">For Desktop?</string>
+</resources>

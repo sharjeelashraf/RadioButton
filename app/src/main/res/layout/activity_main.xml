@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20px"
+    tools:context="com.example.lab2.buttons.MainActivity">
+
+
+    <RadioGroup
+        android:id="@+id/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/android_programming"
+            android:id="@+id/textView4" />
+
+        <RadioButton
+            android:id="@+id/java"
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/java"
+          />
+
+        <RadioButton
+            android:id="@+id/csharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/csharp" />
+
+        <RadioButton
+            android:id="@+id/cplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cplus" />
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/webProgramming"
+            android:id="@+id/programming" />
+
+
+
+
+        <RadioButton
+            android:id="@+id/php"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/php"
+            />
+
+        <RadioButton
+            android:id="@+id/html"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/html" />
+
+        <RadioButton
+            android:id="@+id/javascript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/javascript" />
+
+    </RadioGroup>
+    <RadioGroup
+        android:id="@+id/desktopPro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desktop"
+            android:id="@+id/desktop" />
+        <RadioButton
+            android:id="@+id/java1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/java1"
+            />
+
+        <RadioButton
+            android:id="@+id/scala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scala" />
+
+        <RadioButton
+            android:id="@+id/dotnet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dotnet" />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+</LinearLayout>
